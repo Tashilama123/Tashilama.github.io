@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tashi's Portfolio</title>
+    <style>
+        .head {
+            text-align: center;
+        }
+
+        .even,
+        .odd {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .even {
+            background-color: lightgray;
+        }
+
+        .odd {
+            background-color: white;
+        }
+
+        .left {
+            width: 50%;
+            padding: 20px;
+        }
+
+        .right {
+            width: 50%;
+            padding: 20px;
+        }
+
+        .school {
+            text-align: center;
+        }
+
+        .para {
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Responsive styles */
+        @media only screen and (max-width: 600px) {
+            .left,
+            .right {
+                width: 100%;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <h1>MY EDUCATION</h1>
+    </div>
+    <div class="even">
+        <div class="left">
+            <div class="school">
+                <img src="./img/school.jpg" alt="a school">
+            </div>
+        </div>
+        <div class="right">
+            <h2>The Celebration Co-Ed</h2>
+            <h4>School</h4>
+        </div>
+        <div class="para">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum nobis magni assumenda nemo repellendus,
+                accusamus corrupti, aliquam est id architecto praesentium harum suscipit doloremque voluptatum?
+                Architecto
+                fugiat reiciendis fuga ullam.</p>
+        </div>
+    </div>
+
+    <div class="odd">
+        <div class="left">
+            <div class="right">
+                <h2>The Celebration Co-Ed</h2>
+                <h4>School</h4>
+            </div>
+            <div class="para">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum nobis magni assumenda nemo
+                    repellendus,
+                    accusamus corrupti, aliquam est id architecto praesentium harum suscipit doloremque voluptatum?
+                    Architecto
+                    fugiat reiciendis fuga ullam.</p>
+            </div>
+        </div>
+        <div class="school">
+            <img src="./img/school.jpg" alt="a school">
+        </div>
+    </div>
+</body>
+
+</html>
